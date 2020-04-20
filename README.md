@@ -35,4 +35,13 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter notebook ./notebooks/scrape_kinsa_health_weather.ipynb 
 ```
 
-And then follow the instructions therein.
+And then follow the instructions therein. The scraped data will be saved to .csv files in `./data` with the following columns:
+
+| Column    | Description                                  |
+|-----------|----------------------------------------------|
+| condition | "observed" %-illness or "atypical" %-illness |
+| date      | date of %-illness reading                    |
+| county    | county name                                  |
+| state     | state abbreviation                           |
+| fips      | 5-digit (county, state) FIPS code            |
+| illness   | %-illness recorded for county                |
