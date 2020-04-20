@@ -1,7 +1,6 @@
 # Kinsa US Health Weather Map data scraper
 This repo contains a county-level [Kinsa US Health Weather Map](https://bit.ly/3cweb9I) data scraper.
 
-<br/>
 <img align="left" src="./notebooks/cook_county_il.png" hspace="20"/>
 <img align="left" src="./notebooks/lake_county_il.png" hspace="20"/>
 <br/>
